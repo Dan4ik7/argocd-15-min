@@ -10,6 +10,7 @@ spec:
   source:
     repoURL: https://github.com/Dan4ik7/argocd-15-min
     targetRevision: HEAD
+    path: helm
   destination:
     namespace: production
     server: https://kubernetes.default.svc
