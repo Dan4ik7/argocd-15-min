@@ -8,7 +8,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/vfarcic/argocd-15-min.git
+    repoURL: https://github.com/Dan4ik7/argocd-15-min
     targetRevision: HEAD
   destination:
     namespace: production
