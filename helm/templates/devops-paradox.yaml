@@ -11,11 +11,6 @@ spec:
     repoURL: https://github.com/vfarcic/devops-paradox.git
     targetRevision: HEAD
     helm:
-      values: |
-        image: 
-          tag: latest
-        ingress: 
-          host: devops-paradox.$INGRESS_HOST.xip.io
       version: v3
   destination:
     namespace: production
